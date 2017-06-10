@@ -7,9 +7,11 @@ import javax.swing.JLabel;
 import javax.swing.JTextField;
 import javax.swing.border.EmptyBorder;
 import java.awt.Font;
+import java.awt.Frame;
+
 import javax.swing.JButton;
 
-public class MahasiswaView extends JFrame {
+public class MahasiswaView extends JFrame { 
 	public JPanel contentPane;
 	private JTextField txtNama;
 	private JTextField txtNik;
@@ -19,7 +21,7 @@ public class MahasiswaView extends JFrame {
 	private JButton btnCari;
 	private JButton btnSave;
 	private JButton btnReset;
-	 	
+
 	public JButton getBtnCari() {
 		return btnCari;
 	}
@@ -169,12 +171,12 @@ public class MahasiswaView extends JFrame {
 		contentPane.add(btnReset);
 		
 		txtCari = new JTextField();
-		txtCari.setBounds(306, 42, 114, 19);
+		txtCari.setBounds(309, 62, 114, 19);
 		contentPane.add(txtCari);
 		txtCari.setColumns(10);
 		
 		JButton btnCari = new JButton("CARI");
-		btnCari.setBounds(303, 86, 117, 25);
+		btnCari.setBounds(306, 110, 117, 25);
 		contentPane.add(btnCari);
 
 	
